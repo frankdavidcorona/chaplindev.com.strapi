@@ -4,7 +4,8 @@
   "info": {
     "singularName": "recommendation",
     "pluralName": "recommendations",
-    "displayName": "recommendation"
+    "displayName": "Recommendation",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -39,6 +40,18 @@
         }
       },
       "type": "text"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
